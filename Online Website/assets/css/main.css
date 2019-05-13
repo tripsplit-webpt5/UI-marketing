@@ -2077,6 +2077,9 @@ input, select, textarea {
 				display: inline-block;
 				font-style: italic;
 				margin: 0 0.35em 0 0.35em;
+				font-family: 'Anton', sans-serif;
+				letter-spacing: 2px;
+				font-size: 1.2rem;
 			}
 
 				#nav > ul > li > ul {
@@ -2096,13 +2099,14 @@ input, select, textarea {
 				}
 
 				#nav > ul > li:hover > a, #nav > ul > li.active > a {
-					background: #f3f3f3;
+					background: #d52349;
+					color:white;
 				}
 
 				#nav > ul > li.current > a {
 					background: #d52349;
 					color: #fff !important;
-					font-weight: 700;
+					font-weight: 700;  
 				}
 
 	.dropotron {
@@ -2878,4 +2882,37 @@ input, select, textarea {
 				padding: 40px 0 20px 0;
 			}
 
+	}
+
+
+
+
+
+
+
+
+
+
+	/* Editition portion */
+	.btn {
+		display: block;
+		max-width: 220px;
+		margin: 10px auto;
+		text-transform: uppercase;
+		text-decoration: none;
+		color: #ffffffc7;
+		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		border: 1px solid #ff0000;
+		border-radius: 5px;
+		font-family: 'Anton', sans-serif;
+		letter-spacing: 2px;
+		font-size: 1.2rem;
+	  }
+	.btn:hover {
+		color: #ffffffc7;
+		background: linear-gradient(270deg, #f33535 20%, #f30505 100%);
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		border: none;
+		margin: 11px auto;
+		text-shadow: none;
 	}
