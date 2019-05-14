@@ -1601,6 +1601,10 @@ input, select, textarea {
 			margin-bottom: 0;
 		}
 
+		.box .post .Add {
+			border: 5px solid blue;
+		}
+
 /* Button */
 
 	input[type="button"],

@@ -1,0 +1,222 @@
+@import url(https://fonts.googleapis.com/css?family=ABeeZee|Anton|Baloo+Da);
+@import url(https://fonts.googleapis.com/css?family=ABeeZee:400,400i);
+/* Variables and Tablets and Desktop styles for all pages */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background: linear-gradient(234.45deg, #2E008F 26.08%, #873EFF 100%); */
+  background: -webkit-gradient(linear, right top, left bottom, from(#2e008f), color-stop(#4410aa), color-stop(#5a20c6), color-stop(#702fe2), to(#873eff));
+  background: -webkit-linear-gradient(right top, #2e008f, #4410aa, #5a20c6, #702fe2, #873eff);
+  background: linear-gradient(to left bottom, #2e008f, #4410aa, #5a20c6, #702fe2, #873eff);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 1024px;
+  color: #fff; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Baloo Da', cursive; }
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace; }
+
+/* Variables and Tablets and Desktop styles for all pages */
+.App {
+  text-align: center;
+  font-family: 'ABeeZee', cursive;
+  margin: 0 auto;
+  color: #fff;
+  line-height: 1.8; }
+
+a {
+  text-decoration: underline;
+  color: #fff; }
+
+nav a {
+  margin: 10px 10px 10px 10px;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+nav a:hover {
+  background-color: transparent;
+  color: #5af3fd;
+  text-decoration: none;
+  border: 1px solid #5af3fd;
+  border-radius: 50px; }
+
+.navLogo:hover {
+  background-color: none;
+  -webkit-transform: scale3d(1.2, 1.2, 1.2) rotate(-10deg);
+          transform: scale3d(1.2, 1.2, 1.2) rotate(-10deg);
+  border: none; }
+
+.activeNav {
+  background-color: transparent;
+  color: #5af3fd;
+  border: 1px solid #5af3fd;
+  border-radius: 50px; }
+
+ul {
+  list-style: none; }
+
+.schoolUl > .schoolLinks > a {
+  color: #fff; }
+
+.heading2 {
+  color: #5af3fd; }
+
+.schoolUl {
+  margin: 0 auto;
+  padding: 0; }
+
+.box1 {
+  position: relative;
+  margin-top: 50px;
+  z-index: 0;
+  top: 40px;
+  left: -20px;
+  -webkit-animation: bobbleRight 7s infinite;
+          animation: bobbleRight 7s infinite; }
+
+@-webkit-keyframes bobbleRight {
+  0% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px); }
+  50% {
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px); }
+  100% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px); } }
+
+@keyframes bobbleRight {
+  0% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px); }
+  50% {
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px); }
+  100% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px); } }
+
+.signupBtn {
+  max-width: 200px;
+  margin: 5px auto;
+  padding: 5px 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  border: 1px solid #5af3fd;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.2rem; }
+
+.loginBtn {
+  max-width: 200px;
+  margin: 5px auto;
+  padding: 5px 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  border: 1px solid #33ff00;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.2rem; }
+
+.signupBtn:hover,
+.loginBtn:hover {
+  color: #fff;
+  background: -webkit-gradient(linear, right top, left top, color-stop(20%, #00e6ff), to(#00a3ff));
+  background: -webkit-linear-gradient(right, #00e6ff 20%, #00a3ff 100%);
+  background: linear-gradient(270deg, #00e6ff 20%, #00a3ff 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  margin: 6px auto;
+  text-shadow: none;
+  text-decoration: none; }
+
+.bublCta {
+  position: relative;
+  margin-bottom: 20px;
+  z-index: 100;
+  top: -430px;
+  left: 0; }
+
+.bubblesBg {
+  position: relative;
+  top: -240px;
+  left: 0;
+  z-index: 200; }
+
+.kidsImage {
+  width: 80%;
+  height: auto;
+  position: relative;
+  top: -550px;
+  left: -20px;
+  z-index: 300; }
+
+.bubblekids {
+  position: relative;
+  top: -30px;
+  left: -80px;
+  z-index: 400; }
+
+.mainPara {
+  margin-top: 20px;
+  line-height: 1.5;
+  font-size: 1.25em; }
+
+.box2 {
+  -webkit-animation: bobbleRight 8s infinite;
+          animation: bobbleRight 8s infinite; }
+
+@keyframes bobbleRight {
+  0% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px); }
+  50% {
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px); }
+  100% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px); } }
+
+.row1 {
+  position: relative;
+  top: -430px;
+  left: 0;
+  z-index: 500; }
+
+.row2 {
+  position: relative;
+  top: -430px;
+  left: 0;
+  z-index: 600; }
+
+video {
+  margin-top: 30px;
+  width: 90%;
+  height: auto; }
+
+/* Variables and Tablets and Desktop styles for all pages */
+
